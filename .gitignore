@@ -2,3 +2,5 @@ __pycache__/
 history/
 checkin_history.json
 config_*.py
+xmrj_autocheckin_private.py
+xmrj_autostart_private.bat
