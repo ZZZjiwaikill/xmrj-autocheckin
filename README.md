@@ -28,6 +28,13 @@
 3. 在 `config.py` 中，填写你的个人信息
 4. 安装依赖: `pip install requests`
 5. 运行脚本: `python xmrj_autocheckin.py`
+6. 若命令行输出为
+   ```bash
+   打卡结果： {'points': {'ID': xxx, 'Mobile': xxx, 'BeforePoints': 120, 'ProcessPoints': 10, 'AfterPoints': 130, 'CreateTime': xxx, 'Reason': '签到'}}
+   打卡成功，已记录
+   ```
+   则说明已打卡成功（`xxx`为个人隐私信息）
+
 
 ## 重要声明
 
