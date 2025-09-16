@@ -1,0 +1,4 @@
+__pycache__/
+history/
+checkin_history.json
+config_*.py
