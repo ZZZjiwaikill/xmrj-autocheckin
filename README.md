@@ -12,10 +12,10 @@
 
 ## 安装使用
 
-1. 克隆项目 TODO
+1. 克隆项目
    ```bash
-   git clone https://github.com//autocat.git
-   cd autocat
+   git clone https://github.com/ZZZjiwaikill/xmrj-autocheckin.git
+   cd xmrj-autocheckin
    ```
 2. 使用Charles，对“我要签到”的按钮进行抓包。具体步骤如下：
    1. 根据[Charles使用教程（一）| 使用Charles抓包微信小程序](https://www.zhihu.com/tardis/bd/art/1896701961547538943)，安装软件、根证书
@@ -24,7 +24,7 @@
       1. 开始抓包
       2. 点击“我要签到”按钮，抓包软件会记录下这个请求。
       3. 停止抓包
-      4. 查看抓包记录，如下图找到`config.py`内的信息：TODO
+      4. 查看抓包记录，如下图找到`config.py`内待填写的信息：![alt text](ref_image.jpg)
 3. 在 `config.py` 中，填写你的个人信息
 4. 安装依赖: `pip install requests`
 5. 运行脚本: `python xmrj_autocheckin.py`
